@@ -1,0 +1,30 @@
+# Sudoku Checker
+
+The purpose of this exercise is to code a simple **sudoku checker**.
+
+That is, a program that **tells us if a sudoku solution is right or wrong**.
+
+From Wikipedia:
+> Sudoku (数独, sūdoku, digit-single) (/suːˈdoʊkuː, -ˈdɒk-, sə-/, originally called Number Place)[1] is a logic-based,[2][3] combinatorial[4] number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
+
+To take a quick overview, this is an unsolved Sudoku:
+
+![Unsolved sudoku](docs/unsolved.png)
+
+and it's solution:
+
+![Unsolved sudoku](docs/solved.png)
+
+## Rules
+
+To solve a sudoku there are only three rules:
+
+1. Not repeated numbers in each row
+2. Not repeated numbers in each column
+3. Not repeated numbers in each 3x3 cell.
+
+![Sudoku parts](docs/sudoku-parts.jpeg)
+
+Feel free to install new third-party dependencies if you need it, except (obviously) for that ones which perform sudoku validations ;)
+
+Happy coding!
